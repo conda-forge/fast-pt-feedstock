@@ -1,5 +1,5 @@
 {% set name = "fast-pt" %}
-{% set version = "3.1.1" %}
+{% set version = "3.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/JoeMcEwen/FAST-PT/archive/v{{ version }}.tar.gz
-  sha256: 6b444fe05817b0f5d2d252f0868bf54f39661f41ca967a6609f1be0e995666ae
+  sha256: db4b193fad0a0e6bde681bb9b007959ee6d641eac1a959ed542b3d542dc43380
 
 build:
   noarch: python
