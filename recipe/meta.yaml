@@ -1,6 +1,5 @@
 {% set name = "fast-pt" %}
 {% set version = "3.2" %}
-{% set python_min = "3.5" %}
 
 package:
   name: {{ name|lower }}
