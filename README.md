@@ -3,13 +3,13 @@ About fast-pt-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fast-pt-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/JoeMcEwen/FAST-PT
+Home: https://pypi.org/project/fast-pt/
 
 Package license: MIT
 
-Summary: FAST-PT is a code to calculate quantities in cosmological perturbation theory
-at 1-loop (including, e.g., corrections to the matter power spectrum).
+Summary: FAST-PT is a code to calculate quantities in cosmological perturbation theory at 1-loop (including, e.g., corrections to the matter power spectrum).
 
+Development: https://github.com/jablazek/FAST-PT
 
 Current build status
 ====================
@@ -97,7 +97,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -146,4 +146,6 @@ Feedstock Maintainers
 =====================
 
 * [@beckermr](https://github.com/beckermr/)
+* [@dderienzo](https://github.com/dderienzo/)
+* [@jablazek](https://github.com/jablazek/)
 
