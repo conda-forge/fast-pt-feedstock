@@ -1,5 +1,5 @@
 {% set name = "fast-pt" %}
-{% set version = "3.2" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fast_pt-{{ version }}.tar.gz
-  sha256: ec4cfdb4a352b300ca7ec2f313a73c5676ec61ef665345b0fc37a258f5ecbd5d
+  sha256: 070e9de13635711930f4ad19181f96c2dd3a85989c7a277b4b1e4c909ee817c5
 
 build:
   noarch: python
